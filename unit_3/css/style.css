@@ -1,0 +1,25 @@
+body {
+	background-color: #FF7A6E;
+	background-size: cover;
+	font-family:'Covered By Your Grace', cursive;
+	font-size: 28px;
+}
+h1 {
+	color: #FFEBE0;
+	text-transform: uppercase;
+}
+#slogan {font-style: italic;
+}
+ul {font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid black;
+}
+img {width: 100%;}
+
+.productImages {
+	width: 25%;
+	margin:30px auto;
+	float:left;
+
+}
