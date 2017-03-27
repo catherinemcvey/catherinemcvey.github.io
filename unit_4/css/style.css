@@ -26,11 +26,27 @@ h1 {
     padding: 25px;
     margin: 0;
 }
-img {width: 100%;}
+.navImages {
+    width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
 
+.navImages:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+#leftNavShop{
+	background-image: url(images/pinkfogmountain.jpg)
+}
+#leftNavAbout{
+	background-image: url(images/pinkclouds.jpg)
+}
+#leftNavContact{
+	background-image: url(images/beachflamingo.jpg)
+}
 .productImages {
 	width: 25%;
 	margin:30px auto;
 	float:left;
-
 }
