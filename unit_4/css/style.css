@@ -1,6 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	background-color: #FF7A6E;
-	background-size: cover;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 18px;
 }
@@ -10,40 +14,40 @@ h1 {
 	text-transform: uppercase;
 	font-size: 4em;
 }
-#slogan {
-	font-style: italic;
+#siteContainer {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 .leftNav {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
 	font-size: 1.5em;
-	border: 5px solid black;
     width: 200px;
     height: 100px;
-    border: 1px solid black;
-    border-style: solid solid none solid;
+    border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
     padding: 25px;
-    margin: 0;
-}
-.navImages {
-    width: 100%;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
-
-.navImages:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); 
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 #leftNavShop{
-	background-image: url(images/pinkfogmountain.jpg)
+	background-image: url(../images/pinkfogmountain.jpg);
+	background-size: cover;
 }
 #leftNavAbout{
-	background-image: url(images/pinkclouds.jpg)
+	background-image: url(../images/pinkclouds.jpg);
+	background-size: cover;
 }
 #leftNavContact{
-	background-image: url(images/beachflamingo.jpg)
+	background-image: url(../images/beachflamingo.jpg);
+	background-size: cover;
+}
+#leftNavEmail{
+	border-bottom: 1px solid black;
 }
 .productImages {
 	width: 25%;
