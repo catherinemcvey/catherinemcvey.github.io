@@ -9,74 +9,102 @@ body {
 	font-size: 18px;
 	color: #FFFFFF;
 }
+header {
+	display: inline-block;
+	vertical-align: top;
+	width: 29%;
+	background-color: #FFED74;
+}
+#siteContainer {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 20px;
+}
 h1 {
 	font-family: 'Covered By Your Grace', cursive;
 	color: #FFEBE0;
 	text-transform: uppercase;
 	font-size: 4em;
 	text-align: center;
-	width: 300px;
-    height: 160px;
+    height: 175px;
     border-left: 1px solid black;
 	border-right: 1px solid black;
 	border-top: 1px solid black;
     padding: 25px;
-    display: block;
-    float: left;
-}
-#siteContainer {
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
+
 }
 .leftNav {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
 	font-size: 1.5em;
-    width: 300px;
-    height: 160px;
+    height: 175px;
     border-left: 1px solid black;
 	border-right: 1px solid black;
 	border-top: 1px solid black;
     padding: 25px;
-    display: block;
+    margin: 0;
     background-repeat: no-repeat;
     background-position: center center;
-    float: left;
+    display: block;
+    background-size: cover;
+    background-color: #E8C66A;
 }
 .leftNav:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
 #leftNavShop{
-	background-image: url(../images/pinkfogmountain.jpg);
-	background-size: cover;
+	background-image: url(../images/oceanpier.jpg);
 }
 #leftNavAbout{
 	background-image: url(../images/pinkclouds.jpg);
-	background-size: cover;
 }
 #leftNavContact{
 	background-image: url(../images/pinkocean.jpg);
-	background-size: cover;
 }
-#leftNavEmail{
-	border-bottom: 1px solid black;
+.right-section {
+	display: inline-block;
+	width: 70%;
 }
 .productImages {
-	float: right;
-	width: 900px;
-    height: 800px;
-    border-bottom: 1px solid black;
+	width: 100%;
+    height: 700px;
 	border-right: 1px solid black;
 	border-top: 1px solid black;
-    display: block;
     background-repeat: no-repeat;
     background-position: center center;
 }
-#footer {
-	float: left;
-	width: 1200px;
-    height: 200px;
+footer {
+    border: 1px black solid;
+    display: inline-block;
+    width: 100%;
+    height: 160px;
+	background-size: cover;
+	background-color: #FF957E;
 }
+.leftFooter{
+	padding: 20px;
+	border: 30px;
+	background-color: purple;
+	display: inline-block;
+    float: left;
+}
+.socialIcons{
+	padding: 20px;
+	border: 30px;
+    background-color: red;
+    display: inline-block;
+    float: right;
+ }
+ .copyRights{
+ 	font-size: .7em;
+ 	padding: 20px;
+	border: 30px;
+ 	background-color: blue;
+    display: block;
+    float: right;
+ }
+

@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #FF7A6E;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+header {
+	display: inline-block;
+	vertical-align: top;
+	width: 29%;
+}
+#siteContainer {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 20px;
+}
+h1 {
+	font-family: 'Covered By Your Grace', cursive;
+	color: #FFEBE0;
+	text-transform: uppercase;
+	font-size: 4em;
+	text-align: center;
+    height: 175px;
+    border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+    padding: 25px;
+
+}
+.leftNav {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+    height: 175px;
+    border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+    padding: 25px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    background-size: cover;
+}
+.leftNav:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#leftNavShop{
+	background-image: url(../images/oceanpier.jpg);
+}
+#leftNavAbout{
+	background-image: url(../images/pinkclouds.jpg);
+}
+#leftNavContact{
+	background-image: url(../images/pinkocean.jpg);
+}
+.right-section {
+	display: inline-block;
+	width: 70%;
+}
+.productImages {
+	width: 100%;
+    height: 700px;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+footer {
+    border: 1px black solid;
+    display: inline-block;
+    width: 100%;
+    height: 160px;
+	background-size: cover;
+}
+.leftFooter{
+	padding: 20px;
+	border: 30px;
+	background-color: yellow;
+	display: inline-block;
+    float: left;
+}
+.socialIcons{ 
+	float: right;
+	text-align: center;
+	background: red;
+	margin: 5px 5px;
+}
+.fa {
+  padding: 10px;
+  font-size: 5em;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  background: black;
+  color: white;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    color: black;
+    background: white;
+}
+ .copyRights{
+ 	font-size: .7em;
+ 	padding: 20px;
+	border: 30px;
+	margin: 5px 5px;
+ 	background-color: blue;
+    display: inline-block;
+    float: right;
+ }
+
