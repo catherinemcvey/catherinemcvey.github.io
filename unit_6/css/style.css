@@ -65,11 +65,18 @@ h1 {
 	background-image: url(../images/pinkocean.jpg);
 }
 .right-section {
-	display: inline-block;
 	width: 70%;
 }
-.productImages {
-	width: 100%;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#productImages {
+	width: 70%;
     height: 700px;
 	border-right: 1px solid black;
 	border-top: 1px solid black;
@@ -80,14 +87,6 @@ h1 {
     border: 1px black solid;
   	padding: 30px;
   	width: 100%;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
 }
 #left {
     border: 1px black solid;
@@ -124,7 +123,5 @@ h1 {
     color: black;
     background: white;
  }
- #placeholder {
- 	font-size: 5em;
- }
+
 
