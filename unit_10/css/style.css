@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #FFC9B5;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+header {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+#siteContainer {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 20px;
+}
+.logoURL {
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Covered By Your Grace', cursive;
+  color: #FFEBE0;
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  padding: 8%;
+  background-color: #FF7A6E;
+}
+h1:hover {
+  color: black;
+}
+.logoMobile {
+  display: none;
+}
+.leftNav {
+	text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+  padding: 25%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  background-size: cover;
+  position: relative;
+}
+.leftNav p {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+.leftNav:hover {
+  color: black;
+}
+#leftNavShop{
+	background-image: url(../images/oceanpier.jpg);
+}
+#leftNavAbout{
+	background-image: url(../images/pinkclouds.jpg);
+}
+#leftNavContact{
+	background-image: url(../images/pinkocean.jpg);
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.right-section {
+  float: right;
+  width: 70%;
+  height: 0;
+  padding-bottom: 60.25%;
+  overflow: hidden;
+  background-color: ##efeeea;
+  position: relative;
+}
+.productImages {
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#three_column {
+  padding: 3%;
+  width: 100%;
+  margin-top: 1.5%;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#left {
+  width: 30%;
+  float: left;
+  text-align: center;
+  vertical-align: top;
+}
+input[type=text] {
+  padding: 4% 8%;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+#join {
+  text-align: center;
+  margin: 1%;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 4% 8%;
+  border: none;
+  width: 100%;
+  margin-top: 1%;
+}
+.signupbtn:hover {
+  background-color: white;
+  color: black;
+}
+.signupbtn {
+  float: left;
+}
+.container {
+  padding: 0% 5%;
+  vertical-align: top;
+}
+#center {
+  float: left;
+  padding: 1%;
+  margin-left: 5%;
+  width: 30%;
+  text-align: center;
+}
+#heart {
+  font-size: 2em;
+  color: black;
+}
+#heart:hover {
+  color: red;
+}
+#right {
+  padding: 1%;
+  float: right;
+  width: 30%;
+  text-align: center;
+ }
+ .fa {
+  padding: 3%;
+  font-size: 5em;
+  width: 13%;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  background: black;
+  color: white;
+  margin: 2% 2%;
+}
+.fa:hover {
+  color: black;
+  background: white;
+ }
+@media screen and (max-width: 900px) {
+  .left-section, .right-section, #three_column {
+    float: none;
+    width: 100%;
+  }
+  .logoDesktop {
+    display: none;
+  }
+  .logoMobile {
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    padding: 0;
+  }
+  .right-section {
+    background-color: #f2f1ed;
+  }
+  .productImages {
+    width: 75%;
+  }
+  .leftNav {
+    float: left;
+    width: 33.333%;
+    padding: 0;
+    height: 200px;
+  }
+  .fa {
+    padding: 5%;
+    font-size: 10em;
+    width: 18%;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+  }
+}
+@media screen and (max-width: 480px) {
+  .left-section, .right-section, #right {
+    float: none;
+    width: 100%;
+  }
+  .logoDesktop {
+    display: none;
+  }
+  .logoMobile {
+    display: block;
+    text-align: center;
+    padding: 3.5%;
+  }
+  .productImages {
+    width: 70%;
+  }
+  .leftNav {
+    width: 100%;
+    font-size: 3em;
+  }
+  #center, #left {
+    display: none;
+  }
+  #right p {
+    font-size: 1.5em;
+  }
+  .fa {
+    padding: 5%;
+    font-size: 10em;
+    width: 18%;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+  }
+}

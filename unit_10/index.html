@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vey Design</title>
+</head>
+	<body>
+		<main id="siteContainer">
+			<div class="clearfix">
+				<h1 class="logoMobile">Vey</h1>
+				<section class="right-section">
+					<a href="http://catherinemcvey.com/design-shop/" target="_blank" aria label ="ShopNecklaces" class="productImage1">
+						<img class="productImages" src="images/rosegold.jpg" alt="Rose gold necklace">
+						<img class="productImages" src="images/vredgold.jpg" alt="Red gold necklace">
+						<img class="productImages" src="images/blackwhite.jpg" alt="Black and white necklace">
+					</a>
+				</section>
+				<header class="left-section">
+					<a href="#" class="logoURL">
+						<h1 class="logoDesktop">Vey</h1>
+					</a>
+					<nav>
+						<a href="http://catherinemcvey.com/design-shop/" target="_blank" aria label ="Shop" class="leftNav" id="leftNavShop">
+							<p>shop</p>
+						</a>
+						<a href="http://catherinemcvey.com/" target="_blank" aria label ="About" class="leftNav" id="leftNavAbout">
+							<p>about</p>
+						</a>
+						<a href="http://catherinemcvey.com/" target="_blank" aria label ="Contact" class="leftNav" id="leftNavContact">
+							<p>contact</p>
+						</a>
+					</nav>
+				</header>
+			</div>
+			<footer id="three_column" class="clearfix">
+				<form id="left">
+ 					 <div class="container">
+   				 			<label><p id="join">join our newsletter</p></label>
+   				 			<input type="text" placeholder="Enter email" name="email" required>
+    					<div class="clearfix">
+     			 			<button type="submit" class="signupbtn">Subscribe</button>
+   					 	</div>
+ 				 	</div>
+				</form>
+				<div id="center">
+					<p id="ny">handmade in new york</p>
+					<p id="heart">&hearts;</p>
+				</div>
+				<div id="right">
+					<p> follow us</p>
+					<ul class="socialIconslist">
+						<a href="http://www.facebook.com" target="_blank" aria label ="Facebook" class="fa fa-facebook"></a>
+						<a href="http://www.twitter.com" target="_blank" aria label ="Twitter" class="fa fa-twitter"></a>
+						<a href="http://www.instagram.com" target="_blank" aria label ="Instagram" class="fa fa-instagram"></a>
+						<a href="http://www.pinterest.com" target="_blank" aria label ="Pinterest" class="fa fa-pinterest"></a>
+					</ul>
+				</div>
+			</footer>
+					<script>
+			var myIndex = 0;
+			carousel();
+			function carousel() {
+				 var i;
+				 var x = document.getElementsByClassName("productImages");
+				 for (i = 0; i < x.length; i++) {
+				 	x[i].style.display = "none";  
+				}
+				 myIndex++;
+				 if (myIndex > x.length) {myIndex = 1}    
+				 x[myIndex-1].style.display = "block";  
+				 setTimeout(carousel, 4500); // Change image every 4.5 seconds
+			}
+		</script>
+		</main>
+	</body>
