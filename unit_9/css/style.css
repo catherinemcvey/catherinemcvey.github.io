@@ -21,6 +21,9 @@ header {
 	padding: 20px;
 	border: 20px;
 }
+.logoURL {
+  text-decoration: none;
+}
 h1 {
   font-family: 'Covered By Your Grace', cursive;
   color: #FFEBE0;
@@ -49,16 +52,15 @@ h1:hover {
   background-position: center center;
   display: block;
   background-size: cover;
-  background-color: #E8C66A;
   position: relative;
 }
 .leftNav p {
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
 }
 .leftNav:hover {
   color: black;
@@ -73,20 +75,20 @@ h1:hover {
 	background-image: url(../images/pinkocean.jpg);
 }
 .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 .right-section {
- float: right;
+  float: right;
   width: 70%;
   height: 0;
   padding-bottom: 60.25%;
   overflow: hidden;
-  background-color: white;
+  background-color: ##efeeea;
   position: relative;
 }
 .productImages {
@@ -103,69 +105,68 @@ h1:hover {
   margin-top: 1.5%;
 }
 .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 #left {
-    width: 30%;
-    float: left;
-    text-align: center;
-    vertical-align: top;
+  width: 30%;
+  float: left;
+  text-align: center;
+  vertical-align: top;
 }
 input[type=text] {
-    padding: 4% 8%;
-    display: inline-block;
-    text-align: center;
-    float: left;
-    width: 100%;
+  padding: 4% 8%;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 100%;
 }
 #join {
   text-align: center;
   margin: 1%;
 }
 button {
-    background-color: black;
-    color: white;
-    padding: 4% 8%;
-    border: none;
-    width: 100%;
-    margin-top: 1%;
+  background-color: black;
+  color: white;
+  padding: 4% 8%;
+  border: none;
+  width: 100%;
+  margin-top: 1%;
 }
 .signupbtn:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 .signupbtn {
-    float: left;
+  float: left;
 }
 .container {
-    padding: 0% 5%;
-    vertical-align: top;
+  padding: 0% 5%;
+  vertical-align: top;
 }
-
 #center {
-    float: left;
-    padding: 1%;
-    margin-left: 5%;
-    width: 30%;
-    text-align: center;
+  float: left;
+  padding: 1%;
+  margin-left: 5%;
+  width: 30%;
+  text-align: center;
 }
 #heart {
-    font-size: 2em;
-    color: black;
+  font-size: 2em;
+  color: black;
 }
 #heart:hover {
-    color: red;
+  color: red;
 }
 #right {
-    padding: 1%;
-    float: right;
-    width: 30%;
-    text-align: center;
+  padding: 1%;
+  float: right;
+  width: 30%;
+  text-align: center;
  }
  .fa {
   padding: 3%;
@@ -179,8 +180,8 @@ button {
   margin: 2% 2%;
 }
 .fa:hover {
-    color: black;
-    background: white;
+  color: black;
+  background: white;
  }
 @media screen and (max-width: 900px) {
   .left-section, .right-section, #three_column {
